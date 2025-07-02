@@ -1,7 +1,7 @@
 # Diabetes 130-US Hospitals Readmission Prediction
 
 ## Overview
-This project predicts hospital readmissions within 30 days (readmitted_binary: 0 for not readmitted, 1 for readmitted) using the Diabetes 130-US Hospitals dataset (~71,518 rows). The dataset has a ~11% positive class imbalance, making recall for class 1 a key metric. Models include Random Forest, Logistic Regression, and XGBoost, with preprocessing to handle outliers, encode categorical features, and address imbalance using SMOTE.
+This project predicts hospital readmissions within 30 days (readmitted_binary: 0 for not readmitted, 1 for readmitted) using the Diabetes 130-US Hospitals dataset (10176 rows). Models include Random Forest, Logistic Regression, and XGBoost, with preprocessing to handle outliers, encode categorical features, and address imbalance using SMOTE.
 
 ## Dataset
 - *Source*: Diabetes 130-US Hospitals for Years 1999-2008.
