@@ -1,7 +1,9 @@
 # Predicting Hospital Readmission for Diabetic Patients using Machine Learning
 
 ## Overview
-This project predicts hospital readmissions within 30 days (readmitted_binary: 0 for not readmitted, 1 for readmitted) using the Diabetes 130-US Hospitals dataset (101766 rows). Models include Random Forest, Logistic Regression, and XGBoost, with preprocessing to handle outliers, encode categorical features, and address imbalance using SMOTE.
+
+This project focuses on building a predictive model to identify whether a diabetic patient is likely to be readmitted to the hospital within 30 days of discharge.
+It uses a real-world dataset of diabetic patients and applies various machine learning techniques such as preprocessing, outlier handling, SMOTE for class imbalance, and models like Logistic Regression, Random Forest, and XGBoost.
 
 ## Dataset
 - *Source*: Diabetes 130-US Hospitals for Years 1999-2008.
