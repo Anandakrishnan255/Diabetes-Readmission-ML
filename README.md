@@ -1,4 +1,4 @@
-# Diabetes 130-US Hospitals Readmission Prediction
+# Predicting Hospital Readmission for Diabetic Patients using Machine Learning
 
 ## Overview
 This project predicts hospital readmissions within 30 days (readmitted_binary: 0 for not readmitted, 1 for readmitted) using the Diabetes 130-US Hospitals dataset (101766 rows). Models include Random Forest, Logistic Regression, and XGBoost, with preprocessing to handle outliers, encode categorical features, and address imbalance using SMOTE.
